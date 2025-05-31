@@ -1,0 +1,106 @@
+#section1 {
+  background: linear-gradient(108deg, #07ACFF 53.34%, #96DCFF 90.4%);
+}
+
+.section1_main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_container {
+  position: absolute;
+  width: 295.63px;
+  height: 165.2px;
+  right: 30px;
+  bottom: 30px;
+  overflow: hidden;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.video_container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.character .aromi {
+  position: absolute;
+  left: 5%;
+  bottom: 15%;
+  z-index: 5;
+}
+
+.character .agul {
+  position: absolute;
+  left: 20%;
+  bottom: 30%;
+  transform: rotate(-7.489deg);
+  z-index: 5;
+}
+
+.character .cocomong {
+  position: absolute;
+  left: 40%;
+  bottom: 15%;
+  z-index: 5;
+}
+
+.character .duri {
+  position: absolute;
+  left: 55%;
+  bottom: 30%;
+  z-index: 5;
+}
+
+.character .kero {
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+  z-index: 5;
+}
+
+.asset img:nth-child(1) {
+  position: absolute;
+  left: -6%;
+  top: 0;
+  animation: cloud1 15s linear infinite;
+}
+
+.asset img:nth-child(2) {
+  position: absolute;
+  right: 10%;
+  bottom: -10%;
+  animation: cloud2 15s linear infinite;
+}
+
+@keyframes cloud1 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes cloud2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} 

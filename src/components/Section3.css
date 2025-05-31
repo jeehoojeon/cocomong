@@ -1,0 +1,30 @@
+#section3 {
+  background: linear-gradient(281deg, #FFA07A -0.54%, #FF6B81 69.01%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3_ourparks {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.section3_ourparks img {
+  width: 300px;
+  height: 576px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.section3_ourparks img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+} 
